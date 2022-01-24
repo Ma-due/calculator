@@ -1,3 +1,7 @@
+/*********************
+ * v1.0
+ * 2021-02-01
+*********************/
 #include <stdio.h>
  
 int add(int, int);
@@ -41,18 +45,15 @@ int add(int a, int b)
  
 int sub(int a, int b)
 {
-	//TODO implementation
-	return 0;
+	return int a - b;
 }
  
 int multi(int a, int b)
 {
-	//TODO implementation
-	return 0;
+	return a*b;
 }
  
 int div(int a, int b)
 {
-	//TODO implementation
-	return 0;
+	return a / b;
 }
